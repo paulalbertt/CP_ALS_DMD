@@ -1,0 +1,67 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+regime                                  iters     stop  rho@end rate@end  fc_it@100 act_rem@100 congr@end
+A: easy (congruence 0.5)                   42      tol   0.7341   0.7337          0          0    0.137
+B: swamp (congruence 0.95)               2948      tol   0.9982   0.9981       1962       2848    0.837
+C: degenerate (border rank 2, R = 2)     2000 max_iters   0.9998   0.9996       2268       1900   -0.954
+figure written to results/fig_diagnostic.png
+congr 0.50 rep 1: K = 59, 1e-6 rule at k = 48
+congr 0.50 rep 2: K = 40, 1e-6 rule at k = 32
+congr 0.50 rep 3: K = 53, 1e-6 rule at k = 44
+congr 0.50 rep 4: K = 43, 1e-6 rule at k = 35
+congr 0.50 rep 5: K = 51, 1e-6 rule at k = 42
+congr 0.50 rep 6: K = 46, 1e-6 rule at k = 38
+congr 0.50 rep 7: K = 41, 1e-6 rule at k = 34
+congr 0.50 rep 8: K = 54, 1e-6 rule at k = 45
+congr 0.80 rep 1: K = 339, 1e-6 rule at k = 243
+congr 0.80 rep 2: K = 331, 1e-6 rule at k = 251
+congr 0.80 rep 3: K = 352, 1e-6 rule at k = 248
+congr 0.80 rep 4: K = 663, 1e-6 rule at k = 438
+congr 0.80 rep 5: K = 263, 1e-6 rule at k = 194
+congr 0.80 rep 6: K = 437, 1e-6 rule at k = 319
+congr 0.80 rep 7: K = 280, 1e-6 rule at k = 201
+congr 0.80 rep 8: K = 377, 1e-6 rule at k = 271
+congr 0.90 rep 1: K = 1044, 1e-6 rule at k = 676
+congr 0.90 rep 2: K = 976, 1e-6 rule at k = 661
+congr 0.90 rep 3: K = 1223, 1e-6 rule at k = 810
+congr 0.90 rep 4: K = 1256, 1e-6 rule at k = 860
+congr 0.90 rep 5: K = 895, 1e-6 rule at k = 590
+congr 0.90 rep 6: K = 1263, 1e-6 rule at k = 807
+congr 0.90 rep 7: K = 1218, 1e-6 rule at k = 813
+congr 0.90 rep 8: K = 835, 1e-6 rule at k = 578
+congr 0.95 rep 1: K = 3449, 1e-6 rule at k = 1706
+congr 0.95 rep 2: K = 3396, 1e-6 rule at k = 1734
+congr 0.95 rep 3: K = 3876, 1e-6 rule at k = 1864
+congr 0.95 rep 4: K = 3744, 1e-6 rule at k = 1833
+congr 0.95 rep 5: K = 2438, 1e-6 rule at k = 1415
+congr 0.95 rep 6: K = 1406, 1e-6 rule at k = 978
+congr 0.95 rep 7: K = 3726, 1e-6 rule at k = 1834
+congr 0.95 rep 8: K = 3019, 1e-6 rule at k = 1609
+
+0 runs hit the iteration cap and were excluded
+checkpoints: 209, of which 175 (84%) had a usable forecast (max|lambda| < 1)
+
+forecast / actual (all usable checkpoints):
+  iterations: median ratio 1.00, within x2: 83%, within x3: 89%
+  remaining decrease: median ratio 1.10, within x2: 86%, within x3: 94%
+
+by congruence (iterations forecast, usable checkpoints only):
+  congruence 0.50: n= 26, median ratio 0.98, within x2 92%, within x3 96%, usable 93%
+  congruence 0.80: n= 40, median ratio 1.00, within x2 95%, within x3 95%, usable 82%
+  congruence 0.90: n= 49, median ratio 1.02, within x2 84%, within x3 86%, usable 80%
+  congruence 0.95: n= 60, median ratio 1.03, within x2 72%, within x3 83%, usable 85%
+
+by checkpoint (iterations forecast):
+  k =   10: n= 17, median ratio 0.58, within x2 41%, within x3 53%
+  k =   20: n= 22, median ratio 0.81, within x2 64%, within x3 73%
+  k =   50: n= 19, median ratio 0.92, within x2 79%, within x3 84%
+  k =  100: n= 24, median ratio 0.94, within x2 79%, within x3 88%
+  k =  200: n= 24, median ratio 1.04, within x2 96%, within x3 100%
+  k =  500: n= 17, median ratio 1.05, within x2 100%, within x3 100%
+  k = 1000: n= 13, median ratio 1.19, within x2 92%, within x3 100%
+  k = 2000: n=  7, median ratio 1.07, within x2 100%, within x3 100%
+
+At the iteration where the 1e-6 relative-change rule fires (32 runs):
+  median actual remaining iterations to the 1e-8 rule: 241; median forecast: 255
+  remaining decrease of f: median actual 2.97e-08, median forecast 3.23e-08, forecast within x3 of actual in 100% of runs
+figure written to results/fig_forecast.png

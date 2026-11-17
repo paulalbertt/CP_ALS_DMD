@@ -1,0 +1,163 @@
+
+==== main: size [50 50 50], R=5, 20 replicates, tol=1e-08, max_iters=5000 ====
+
+-- congruence 0.50, noise 0.00 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                             54      162    0.019      1.00      1.00    100%      0%    NaN% |       28       84     100%   1.4e+00
+ALS + Bro line search           29      114    0.016      0.70      0.54    100%      0%     71% |       17       67     100%   5.8e-01
+ALS + ELS (Rajih)               27      181    0.030      1.01      0.46    100%      0%    100% |       18      121     100%   7.8e-01
+ALS + Anderson                  24       92    0.016      0.54      0.42    100%      0%     77% |       16       61     100%   2.9e-01
+ALS + DMD (ELS)                 28      184    0.036      1.10      0.49    100%      0%    100% |       18      121     100%   8.6e-01
+ALS + DMD (backtracking)        27      113    0.020      0.68      0.49    100%      0%     84% |       17       72     100%   5.4e-01
+
+-- congruence 0.50, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                             50      150    0.015      1.00      1.00     95%      5%    NaN% |       26       78      95%   1.1e-08
+ALS + Bro line search           27      106    0.012      0.72      0.55     95%      5%     70% |       14       57      95%   4.1e-09
+ALS + ELS (Rajih)               26      174    0.023      1.18      0.53    100%      0%    100% |       16      104     100%   1.3e-09
+ALS + Anderson                  22       86    0.012      0.60      0.46     95%      5%     78% |       14       55      95%   1.3e-10
+ALS + DMD (ELS)                 26      174    0.030      1.18      0.53    100%      0%    100% |       16      107     100%   1.4e-09
+ALS + DMD (backtracking)        26      106    0.016      0.71      0.51    100%      0%     85% |       16       67     100%   1.3e-09
+
+-- congruence 0.50, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                             40      118    0.012      1.00      1.00    100%      0%    NaN% |       25       75     100%   1.2e-08
+ALS + Bro line search           22       88    0.010      0.75      0.57    100%      0%     66% |       14       57     100%   3.5e-09
+ALS + ELS (Rajih)               20      136    0.019      1.13      0.51    100%      0%    100% |       15       99     100%   7.2e-10
+ALS + Anderson                  18       72    0.010      0.63      0.49    100%      0%     77% |       14       53     100%   3.7e-10
+ALS + DMD (ELS)                 22      146    0.023      1.26      0.57    100%      0%    100% |       15      100     100%   1.3e-09
+ALS + DMD (backtracking)        21       87    0.013      0.79      0.58    100%      0%     86% |       15       62     100%   1.8e-09
+
+-- congruence 0.80, noise 0.00 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                            422     1264    0.133      1.00      1.00    100%      0%    NaN% |      214      644     100%   1.2e+00
+ALS + Bro line search          231      922    0.099      0.72      0.54    100%      0%     93% |      112      445     100%   1.0e+00
+ALS + ELS (Rajih)               88      604    0.080      0.51      0.22    100%      0%    100% |       56      390     100%   2.1e-01
+ALS + Anderson                  57      226    0.028      0.19      0.15    100%      0%     71% |       40      159     100%   1.5e-01
+ALS + DMD (ELS)                 76      524    0.084      0.43      0.19    100%      0%    100% |       48      327     100%   8.2e-01
+ALS + DMD (backtracking)        74      319    0.048      0.27      0.19    100%      0%     75% |       51      223     100%   7.2e-01
+
+-- congruence 0.80, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                            335     1005    0.099      1.00      1.00    100%      0%    NaN% |      198      594     100%   1.9e-07
+ALS + Bro line search          189      754    0.083      0.75      0.56    100%      0%     92% |      103      411     100%   9.5e-08
+ALS + ELS (Rajih)               94      646    0.084      0.60      0.26    100%      0%    100% |       56      387     100%   1.6e-08
+ALS + Anderson                  54      212    0.028      0.22      0.17    100%      0%     73% |       40      156     100%   1.2e-09
+ALS + DMD (ELS)                 70      486    0.080      0.48      0.21    100%      0%    100% |       46      313     100%   1.3e-08
+ALS + DMD (backtracking)        66      284    0.042      0.30      0.21    100%      0%     79% |       46      202     100%   1.2e-08
+
+-- congruence 0.80, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                            230      688    0.072      1.00      1.00    100%      0%    NaN% |      180      540     100%   1.7e-07
+ALS + Bro line search          125      498    0.054      0.73      0.55    100%      0%     90% |       94      376     100%   1.1e-07
+ALS + ELS (Rajih)               61      419    0.054      0.58      0.26    100%      0%    100% |       46      312     100%   3.3e-08
+ALS + Anderson                  43      170    0.023      0.23      0.17    100%      0%     72% |       36      140     100%   3.1e-10
+ALS + DMD (ELS)                 51      349    0.061      0.50      0.22    100%      0%    100% |       40      278     100%   2.2e-08
+ALS + DMD (backtracking)        51      228    0.034      0.32      0.21    100%      0%     79% |       40      181     100%   9.5e-09
+
+-- congruence 0.90, noise 0.00 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           1725     5175    0.528      1.00      1.00    100%      0%    NaN% |      908     2726     100%   9.7e-01
+ALS + Bro line search          968     3868    0.412      0.74      0.56    100%      0%     98% |      502     2005     100%   9.5e-01
+ALS + ELS (Rajih)              254     1770    0.225      0.37      0.16    100%      0%     99% |      145     1010     100%   6.8e-01
+ALS + Anderson                 134      536    0.066      0.11      0.08    100%      0%     59% |      113      450     100%   0.0e+00
+ALS + DMD (ELS)                146     1014    0.164      0.20      0.08    100%      0%    100% |      100      698     100%   8.2e-01
+ALS + DMD (backtracking)       168      712    0.100      0.14      0.10    100%      0%     66% |      132      555     100%   7.4e-01
+
+-- congruence 0.90, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           1068     3204    0.323      1.00      1.00    100%      0%    NaN% |      768     2304     100%   7.8e-07
+ALS + Bro line search          609     2434    0.274      0.77      0.57    100%      0%     97% |      420     1681     100%   4.3e-07
+ALS + ELS (Rajih)              181     1259    0.174      0.40      0.17    100%      0%    100% |      141      981     100%   2.1e-07
+ALS + Anderson                 114      456    0.056      0.13      0.10    100%      0%     59% |      100      396     100%   1.4e-09
+ALS + DMD (ELS)                128      892    0.144      0.28      0.12    100%      0%    100% |       96      666     100%   5.5e-08
+ALS + DMD (backtracking)       146      644    0.088      0.20      0.14    100%      0%     66% |      120      525     100%   5.8e-08
+
+-- congruence 0.90, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                            808     2424    0.256      1.00      1.00    100%      0%    NaN% |      Inf      Inf      45%   9.1e-07
+ALS + Bro line search          469     1874    0.203      0.78      0.58    100%      0%     96% |      455     1818      85%   5.0e-07
+ALS + ELS (Rajih)              148     1032    0.137      0.41      0.18    100%      0%    100% |      131      911      95%   3.0e-07
+ALS + Anderson                  92      368    0.047      0.15      0.11    100%      0%     72% |       89      354      95%   3.5e-08
+ALS + DMD (ELS)                 93      643    0.104      0.26      0.11    100%      0%    100% |       82      564      95%   3.3e-08
+ALS + DMD (backtracking)       118      521    0.071      0.21      0.14    100%      0%     74% |      110      495     100%   8.1e-08
+
+-- congruence 0.95, noise 0.00 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           5000    15000    1.505      1.00      1.00    100%     65%    NaN% |     3248     9746     100%   2.4e+01
+ALS + Bro line search         3546    14180    1.506      0.95      0.71    100%      0%     99% |     1824     7293     100%   1.0e+00
+ALS + ELS (Rajih)              748     5224    0.671      0.37      0.16    100%      0%     98% |      392     2743     100%   7.2e-01
+ALS + Anderson                 290     1156    0.140      0.08      0.06    100%      0%     53% |      264     1054     100%   0.0e+00
+ALS + DMD (ELS)                248     1724    0.286      0.12      0.05    100%      0%    100% |      185     1287     100%   4.9e-01
+ALS + DMD (backtracking)       333     1428    0.191      0.10      0.07    100%      0%     63% |      274     1172     100%   3.6e-01
+
+-- congruence 0.95, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           3631    10893    1.097      1.00      1.00    100%     10%    NaN% |     3250     9752      95%   3.4e-06
+ALS + Bro line search         2057     8226    0.876      0.79      0.59    100%      0%     99% |     1680     6720     100%   1.9e-06
+ALS + ELS (Rajih)              554     3870    0.503      0.37      0.16    100%      0%    100% |      423     2955     100%   1.5e-06
+ALS + Anderson                 280     1120    0.141      0.10      0.08    100%      0%     59% |      274     1094     100%   1.1e-06
+ALS + DMD (ELS)                188     1308    0.206      0.11      0.05    100%      0%    100% |      163     1134     100%   5.6e-08
+ALS + DMD (backtracking)       252     1104    0.152      0.10      0.07    100%      0%     67% |      231     1027     100%   6.8e-07
+
+-- congruence 0.95, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           2520     7560    0.752      1.00      1.00    100%      0%    NaN% |      Inf      Inf       0%   4.2e-06
+ALS + Bro line search         1558     6230    0.658      0.83      0.62    100%      0%     99% |      Inf      Inf       5%   2.3e-06
+ALS + ELS (Rajih)              338     2358    0.289      0.30      0.13    100%      0%    100% |      Inf      Inf      20%   1.5e-06
+ALS + Anderson                 224      892    0.106      0.13      0.10    100%      0%     62% |      Inf      Inf      10%   2.6e-06
+ALS + DMD (ELS)                144     1000    0.152      0.14      0.06    100%      0%    100% |      143      993      85%   0.0e+00
+ALS + DMD (backtracking)       200      898    0.123      0.13      0.09    100%      0%     71% |      Inf      Inf      25%   1.8e-06
+
+(cost/ALS, iter/ALS: median over replicates of the paired ratio method/ALS; tta_*: median iterations / MTTKRPs
+ needed to bring f within 1e-6 of the initial excess above the best final f of the instance; reached: share of runs that got there;
+ df/fbest: median relative excess of the final objective over the best final objective of the instance, i.e. how far
+ above the best solution a method stopped when its stopping rule fired)
+FALLBACK (log once): Fallback to SW vertex for line stipple
+FALLBACK (log once): Fallback to SW vertex processing, m_disable_code: 2000
+FALLBACK (log once): Fallback to SW vertex processing in drawCore, m_disable_code: 2000
+figures written to results (fig_cost_main.png, fig_convergence_main.png, fig_time_vs_iters_main.png)
+
+==== large: size [50 200 100], R=5, 6 replicates, tol=1e-08, max_iters=5000 ====
+
+-- congruence 0.90, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           1210     3630    2.850      1.00      1.00    100%      0%    NaN% |      828     2482     100%   8.9e-07
+ALS + Bro line search          701     2802    2.145      0.77      0.58    100%      0%     97% |      453     1811     100%   5.0e-07
+ALS + ELS (Rajih)              191     1329    1.056      0.38      0.16    100%      0%    100% |      142      988     100%   2.4e-07
+ALS + Anderson                 124      496    0.404      0.14      0.10    100%      0%     61% |      114      456     100%   7.3e-08
+ALS + DMD (ELS)                116      802    0.683      0.22      0.09    100%      0%    100% |       92      633     100%   0.0e+00
+ALS + DMD (backtracking)       138      608    0.504      0.16      0.11    100%      0%     69% |      112      493     100%   1.1e-07
+
+-- congruence 0.90, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                            717     2151    1.604      1.00      1.00    100%      0%    NaN% |      688     2062     100%   7.5e-07
+ALS + Bro line search          422     1686    1.286      0.77      0.58    100%      0%     96% |      380     1516     100%   4.1e-07
+ALS + ELS (Rajih)              122      850    0.657      0.37      0.16    100%      0%    100% |      114      794     100%   2.7e-07
+ALS + Anderson                  90      358    0.287      0.16      0.12    100%      0%     70% |       86      344     100%   2.0e-08
+ALS + DMD (ELS)                 79      545    0.451      0.24      0.11    100%      0%    100% |       72      497     100%   8.7e-08
+ALS + DMD (backtracking)       101      442    0.358      0.20      0.13    100%      0%     73% |       96      426     100%   8.1e-09
+
+-- congruence 0.95, noise 0.01 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           3667    11001    8.261      1.00      1.00    100%      0%    NaN% |     3151     9453     100%   3.1e-06
+ALS + Bro line search         2190     8756    6.643      0.80      0.60    100%      0%     99% |     1767     7066     100%   2.0e-06
+ALS + ELS (Rajih)              465     3247    2.499      0.27      0.12    100%      0%    100% |      408     2849     100%   1.9e-06
+ALS + Anderson                 248      990    0.775      0.09      0.07    100%      0%     63% |      228      908     100%   1.1e-06
+ALS + DMD (ELS)                184     1276    1.048      0.12      0.05    100%      0%    100% |      154     1071     100%   1.5e-07
+ALS + DMD (backtracking)       214      952    0.788      0.09      0.06    100%      0%     71% |      206      915     100%   1.4e-06
+
+-- congruence 0.95, noise 0.10 --
+method                       iters   MTTKRP  time[s]  cost/ALS  iter/ALS FMS>.95   maxit  accept |   tta_it   tta_mt  reached  df/fbest
+ALS                           2170     6512    4.937      1.00      1.00    100%      0%    NaN% |      Inf      Inf       0%   3.0e-06
+ALS + Bro line search         1339     5354    4.135      0.82      0.62    100%      0%     99% |      Inf      Inf      17%   1.5e-06
+ALS + ELS (Rajih)              354     2474    1.888      0.37      0.16    100%      0%    100% |      384     2677      67%   2.6e-07
+ALS + Anderson                 234      932    0.715      0.14      0.11    100%      0%     59% |      Inf      Inf       0%   1.8e-06
+ALS + DMD (ELS)                142      982    0.788      0.14      0.06    100%      0%    100% |      136      944     100%   0.0e+00
+ALS + DMD (backtracking)       200      908    0.705      0.13      0.09    100%      0%     68% |      Inf      Inf      17%   1.4e-06
+
+(cost/ALS, iter/ALS: median over replicates of the paired ratio method/ALS; tta_*: median iterations / MTTKRPs
+ needed to bring f within 1e-6 of the initial excess above the best final f of the instance; reached: share of runs that got there;
+ df/fbest: median relative excess of the final objective over the best final objective of the instance, i.e. how far
+ above the best solution a method stopped when its stopping rule fired)
+figures written to results (fig_cost_large.png, fig_convergence_large.png, fig_time_vs_iters_large.png)

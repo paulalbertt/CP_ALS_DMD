@@ -1,0 +1,14 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+dreem_tutorial: drEEM tutorial (Murphy), 89 samples x 125 em x 73 ex, scatter removed (14 % missing)
+dreem_tutorial R=5 nonneg=1 start= 1 | none  916 it    8.0s f=3.6480e-03 c=+0.00 | dmd   907 it    8.1s f=3.6480e-03 c=+0.00 | aa    907 it    7.7s f=3.6480e-03 c=+0.00 | [24s]
+dreem_tutorial R=5 nonneg=1 start= 2 | none  721 it    6.1s f=3.6480e-03 c=+0.00 | dmd   632 it    5.3s f=3.6480e-03 c=+0.00 | aa    689 it    5.7s f=3.6480e-03 c=+0.00 | [41s]
+dreem_tutorial R=5 nonneg=1 start= 3 | none  725 it    5.9s f=3.6480e-03 c=+0.00 | dmd   716 it    5.8s f=3.6480e-03 c=+0.00 | aa    694 it    5.7s f=3.6480e-03 c=+0.00 | [59s]
+dreem_tutorial R=5 nonneg=1 start= 4 | none  881 it    7.1s f=3.6480e-03 c=+0.00 | dmd   886 it    7.2s f=3.6480e-03 c=+0.00 | aa    887 it    7.6s f=3.6480e-03 c=+0.00 | [81s]
+dreem_tutorial R=5 nonneg=1 start= 5 | none  724 it    6.0s f=3.6480e-03 c=+0.00 | dmd   742 it    6.3s f=3.6480e-03 c=+0.00 | aa    754 it    6.5s f=3.6480e-03 c=+0.00 | [99s]
+dreem_tutorial R=6 nonneg=1 start= 1 | none  655 it    6.1s f=3.3081e-03 c=+0.00 | dmd   563 it    5.1s f=3.3081e-03 c=+0.00 | aa    523 it    4.8s f=3.3081e-03 c=+0.00 | [116s]
+dreem_tutorial R=6 nonneg=1 start= 2 | none  389 it    3.6s f=3.3081e-03 c=+0.00 | dmd   340 it    3.1s f=3.3081e-03 c=+0.00 | aa    343 it    3.2s f=3.3081e-03 c=+0.00 | [126s]
+dreem_tutorial R=6 nonneg=1 start= 3 | none  267 it    2.4s f=3.3081e-03 c=+0.00 | dmd   225 it    2.1s f=3.3081e-03 c=+0.00 | aa    221 it    2.0s f=3.3081e-03 c=+0.00 | [132s]
+dreem_tutorial R=6 nonneg=1 start= 4 | none  606 it    5.3s f=3.3081e-03 c=+0.00 | dmd   551 it    4.8s f=3.3081e-03 c=+0.00 | aa    549 it    4.9s f=3.3081e-03 c=+0.00 | [147s]
+dreem_tutorial R=6 nonneg=1 start= 5 | none  714 it    6.3s f=3.3081e-03 c=+0.00 | dmd   706 it    6.1s f=3.3081e-03 c=+0.00 | aa    675 it    5.9s f=3.3081e-03 c=+0.00 | [165s]
+done dreem_tutorial: 30 runs in 165 s

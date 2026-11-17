@@ -1,0 +1,18 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+rho=0.80 snr=10 dB rep=1 | none      143 it   17.87s err=5.688457e-01 fms=0.835 | shifted    41 it    5.61s err=5.688456e-01 fms=0.835 | dmd        45 it    7.55s err=5.688456e-01 fms=0.835 | [33s]
+rho=0.80 snr=10 dB rep=2 | none      150 it   15.76s err=5.446565e-01 fms=0.826 | shifted    36 it    4.30s err=5.446565e-01 fms=0.826 | dmd        38 it    5.57s err=5.446565e-01 fms=0.826 | [59s]
+rho=0.80 snr=10 dB rep=3 | none      183 it   20.60s err=1.658849e-01 fms=0.821 | shifted    52 it    6.75s err=1.658848e-01 fms=0.821 | dmd        64 it   10.92s err=1.658848e-01 fms=0.821 | [97s]
+rho=0.80 snr=10 dB rep=4 | none      183 it   12.28s err=2.780396e-01 fms=0.809 | shifted    57 it    2.84s err=2.780396e-01 fms=0.809 | dmd        58 it    6.71s err=2.780396e-01 fms=0.809 | [119s]
+rho=0.80 snr=20 dB rep=1 | none      228 it   12.49s err=2.049428e-01 fms=0.837 | shifted    53 it    3.04s err=2.049428e-01 fms=0.837 | dmd        51 it    3.69s err=2.049428e-01 fms=0.837 | [138s]
+rho=0.80 snr=20 dB rep=2 | none      165 it    8.58s err=8.678164e-02 fms=0.828 | shifted    44 it    2.56s err=8.678164e-02 fms=0.828 | dmd        50 it    2.91s err=8.678164e-02 fms=0.828 | [152s]
+rho=0.80 snr=20 dB rep=3 | none      155 it    6.86s err=3.241862e-02 fms=0.821 | shifted    40 it    2.34s err=3.241861e-02 fms=0.821 | dmd        47 it    2.98s err=3.241861e-02 fms=0.821 | [165s]
+rho=0.80 snr=20 dB rep=4 | none      141 it    5.85s err=2.126911e-02 fms=0.830 | shifted    49 it    2.69s err=2.126911e-02 fms=0.830 | dmd        58 it    3.26s err=2.126911e-02 fms=0.830 | [176s]
+rho=0.95 snr=10 dB rep=1 | none      516 it   24.60s err=8.109196e-01 fms=0.646 | shifted    66 it    3.44s err=8.109190e-01 fms=0.646 | dmd       118 it    7.78s err=8.109190e-01 fms=0.646 | [212s]
+rho=0.95 snr=10 dB rep=2 | none     1125 it   51.49s err=7.765432e-01 fms=0.648 | shifted   207 it   10.46s err=7.735991e-01 fms=0.831 | dmd       158 it    9.42s err=7.765427e-01 fms=0.648 | [284s]
+rho=0.95 snr=10 dB rep=3 | none     1129 it   48.94s err=5.132737e-01 fms=0.421 | shifted    82 it    3.93s err=5.132723e-01 fms=0.421 | dmd       155 it    8.84s err=5.123459e-01 fms=0.646 | [346s]
+rho=0.95 snr=10 dB rep=4 | none      909 it   39.37s err=3.637665e-01 fms=0.646 | shifted    91 it    4.21s err=3.637660e-01 fms=0.646 | dmd       141 it    8.60s err=3.637661e-01 fms=0.646 | [398s]
+rho=0.95 snr=20 dB rep=1 | none     1485 it   63.41s err=6.303058e-02 fms=0.826 | shifted    92 it    4.23s err=6.303052e-02 fms=0.826 | dmd       187 it   10.78s err=6.303054e-02 fms=0.826 | [476s]
+rho=0.95 snr=20 dB rep=2 | none     1064 it   45.06s err=1.780427e-02 fms=0.827 | shifted   101 it    4.84s err=1.780424e-02 fms=0.827 | dmd       135 it    8.04s err=1.780425e-02 fms=0.827 | [534s]
+rho=0.95 snr=20 dB rep=3 | none     1152 it   49.64s err=1.186161e-01 fms=0.825 | shifted   104 it    4.82s err=1.186159e-01 fms=0.825 | dmd       154 it    9.03s err=1.186159e-01 fms=0.825 | [598s]
+rho=0.95 snr=20 dB rep=4 | none      812 it   38.38s err=3.332270e-02 fms=0.827 | shifted    80 it    4.03s err=3.332268e-02 fms=0.827 | dmd       117 it    7.44s err=3.332268e-02 fms=0.827 | [648s]

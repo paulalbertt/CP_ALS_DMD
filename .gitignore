@@ -1,0 +1,14 @@
+# machine-specific toolbox/data locations (see local_paths_example.m)
+local_paths.m
+
+# scratch written by the N-way toolbox and MATLAB editor
+temp.mat
+*.asv
+*.m~
+
+# duplicate of the original files already kept in old/
+Archive.zip
+
+# OS clutter
+.DS_Store
+__MACOSX/

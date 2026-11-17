@@ -1,0 +1,22 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+dorrit: Dorrit (Baunsgaard), 27 samples x 551 em x 24 ex, scatter regions missing (1 %)
+dorrit R=4 nonneg=1 start= 1 | none  352 it    3.6s f=9.4028e-02 c=+0.00 | dmd   351 it    3.2s f=9.4028e-02 c=+0.00 | aa    350 it    3.2s f=9.4028e-02 c=+0.00 | [10s]
+dorrit R=4 nonneg=1 start= 2 | none  228 it    2.0s f=9.4028e-02 c=+0.00 | dmd   235 it    2.2s f=9.4028e-02 c=+0.00 | aa    234 it    2.1s f=9.4028e-02 c=+0.00 | [17s]
+dorrit R=4 nonneg=1 start= 3 | none  276 it    2.5s f=9.4028e-02 c=+0.00 | dmd   277 it    2.6s f=9.4028e-02 c=+0.00 | aa    278 it    2.5s f=9.4028e-02 c=+0.00 | [24s]
+dorrit R=4 nonneg=1 start= 4 | none  273 it    2.6s f=9.4028e-02 c=+0.00 | dmd   274 it    2.8s f=9.4028e-02 c=+0.00 | aa    274 it    2.7s f=9.4028e-02 c=+0.00 | [32s]
+dorrit R=4 nonneg=1 start= 5 | none  254 it    2.4s f=9.4028e-02 c=+0.00 | dmd   255 it    2.5s f=9.4028e-02 c=+0.00 | aa    255 it    2.5s f=9.4028e-02 c=+0.00 | [40s]
+dorrit R=4 nonneg=1 start= 6 | none  277 it    2.6s f=9.4028e-02 c=+0.00 | dmd   284 it    2.7s f=9.4028e-02 c=+0.00 | aa    287 it    2.6s f=9.4028e-02 c=+0.00 | [48s]
+dorrit R=5 nonneg=1 start= 1 | none  429 it    5.5s f=7.7677e-02 c=+0.00 | dmd   286 it    3.6s f=7.7677e-02 c=+0.00 | aa    391 it    5.2s f=7.7677e-02 c=+0.00 | [62s]
+dorrit R=5 nonneg=1 start= 2 | none  477 it    6.0s f=7.7677e-02 c=+0.00 | dmd   430 it    5.6s f=7.7677e-02 c=+0.00 | aa    442 it    5.7s f=7.7677e-02 c=+0.00 | [80s]
+dorrit R=5 nonneg=1 start= 3 | none  254 it    3.0s f=7.3758e-02 c=+0.00 | dmd   260 it    3.1s f=7.3758e-02 c=+0.00 | aa    266 it    3.1s f=7.3758e-02 c=+0.00 | [89s]
+dorrit R=5 nonneg=1 start= 4 | none  285 it    3.4s f=7.3758e-02 c=+0.00 | dmd   310 it    3.7s f=7.3758e-02 c=+0.00 | aa    287 it    3.4s f=7.3758e-02 c=+0.00 | [99s]
+dorrit R=5 nonneg=1 start= 5 | none  333 it    4.3s f=7.7677e-02 c=+0.00 | dmd   332 it    4.5s f=7.7677e-02 c=+0.00 | aa    334 it    4.3s f=7.7677e-02 c=+0.00 | [112s]
+dorrit R=5 nonneg=1 start= 6 | none  290 it    4.1s f=7.7833e-02 c=+0.00 | dmd   290 it    4.1s f=7.7833e-02 c=+0.00 | aa    290 it    4.0s f=7.7833e-02 c=+0.00 | [125s]
+dorrit R=5 nonneg=0 start= 1 | none  626 it    1.5s f=6.5359e-02 c=-0.65 | dmd   380 it    1.5s f=6.5359e-02 c=-0.65 | aa    560 it    1.4s f=6.5359e-02 c=-0.65 | [129s]
+dorrit R=5 nonneg=0 start= 2 | none  558 it    1.3s f=6.5359e-02 c=-0.65 | dmd   355 it    1.3s f=6.5359e-02 c=-0.65 | aa    513 it    1.3s f=6.5359e-02 c=-0.65 | [133s]
+dorrit R=5 nonneg=0 start= 3 | none  647 it    1.5s f=6.5359e-02 c=-0.65 | dmd   739 it    2.7s f=6.5359e-02 c=-0.65 | aa    748 it    1.8s f=6.5359e-02 c=-0.65 | [139s]
+dorrit R=5 nonneg=0 start= 4 | none  480 it    1.1s f=6.5359e-02 c=-0.65 | dmd   279 it    1.0s f=6.5359e-02 c=-0.65 | aa    408 it    1.0s f=6.5359e-02 c=-0.65 | [142s]
+dorrit R=5 nonneg=0 start= 5 | none  552 it    1.3s f=6.5359e-02 c=-0.65 | dmd   324 it    1.1s f=6.5359e-02 c=-0.65 | aa    499 it    1.2s f=6.5359e-02 c=-0.65 | [146s]
+dorrit R=5 nonneg=0 start= 6 | none  479 it    1.1s f=6.5359e-02 c=-0.65 | dmd   271 it    0.9s f=6.5359e-02 c=-0.65 | aa    419 it    1.0s f=6.5359e-02 c=-0.65 | [149s]
+done dorrit: 54 runs in 149 s

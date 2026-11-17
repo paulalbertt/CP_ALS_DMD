@@ -1,0 +1,16 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+sugar: sugar process (Bro), 268 samples x 53 em x 7 ex, 4 % missing
+sugar R=4 nonneg=1 start= 1 | none  401 it    1.8s f=1.2366e-03 c=+0.15 | dmd   432 it    1.7s f=1.2366e-03 c=+0.15 | aa    427 it    1.7s f=1.2366e-03 c=+0.15 | [5s]
+sugar R=4 nonneg=1 start= 2 | none  413 it    1.2s f=4.8965e-03 c=+0.00 | dmd  1645 it    6.3s f=1.1755e-03 c=+0.06 | aa    381 it    1.1s f=4.8965e-03 c=+0.00 | [14s]
+sugar R=4 nonneg=1 start= 3 | none 1877 it    6.9s f=1.1755e-03 c=+0.06 | dmd  1881 it    7.0s f=1.1755e-03 c=+0.06 | aa   1872 it    7.3s f=1.1755e-03 c=+0.06 | [35s]
+sugar R=4 nonneg=1 start= 4 | none  650 it    2.5s f=1.2366e-03 c=+0.15 | dmd   460 it    1.8s f=1.2366e-03 c=+0.15 | aa    457 it    1.7s f=1.2366e-03 c=+0.15 | [41s]
+sugar R=4 nonneg=1 start= 5 | none 1708 it    6.6s f=1.1755e-03 c=+0.06 | dmd  1749 it    6.7s f=1.1755e-03 c=+0.06 | aa   1753 it    7.2s f=1.1755e-03 c=+0.06 | [62s]
+sugar R=4 nonneg=1 start= 6 | none  508 it    2.0s f=1.2366e-03 c=+0.15 | dmd   361 it    1.4s f=1.2366e-03 c=+0.15 | aa    362 it    1.4s f=1.2366e-03 c=+0.15 | [67s]
+sugar R=5 nonneg=1 start= 1 | none 1287 it    5.2s f=1.1755e-03 c=+0.00 | dmd  1009 it    5.1s f=6.8805e-04 c=+0.06 | aa   1384 it    5.5s f=1.1755e-03 c=+0.00 | [83s]
+sugar R=5 nonneg=1 start= 2 | none  349 it    1.4s f=1.2366e-03 c=+0.00 | dmd   499 it    2.5s f=6.8463e-04 c=+0.11 | aa    284 it    1.1s f=1.2366e-03 c=+0.00 | [88s]
+sugar R=5 nonneg=1 start= 3 | none 3000 it   14.9s f=6.8819e-04 c=+0.06 | dmd  2714 it   13.2s f=6.8805e-04 c=+0.06 | aa   2466 it   11.9s f=6.8805e-04 c=+0.06 | [128s]
+sugar R=5 nonneg=1 start= 4 | none 1043 it    5.1s f=6.7788e-04 c=+0.09 | dmd  1726 it    8.6s f=6.8805e-04 c=+0.06 | aa   1072 it    5.4s f=6.7788e-04 c=+0.09 | [147s]
+sugar R=5 nonneg=1 start= 5 | none  445 it    1.4s f=4.8965e-03 c=+0.00 | dmd   423 it    1.4s f=4.8965e-03 c=+0.00 | aa    439 it    1.5s f=4.8965e-03 c=+0.00 | [151s]
+sugar R=5 nonneg=1 start= 6 | none 1189 it    5.8s f=6.7788e-04 c=+0.09 | dmd  1180 it    5.9s f=6.7788e-04 c=+0.09 | aa   1198 it    5.9s f=6.7788e-04 c=+0.09 | [169s]
+done sugar: 36 runs in 169 s
